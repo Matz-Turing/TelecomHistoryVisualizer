@@ -1,0 +1,52 @@
+/* Define o estilo básico para a cena */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20;
+}
+
+/* Estilo do layout VBox ou HBox (dependendo de qual for usado no FXML) */
+.vbox, .hbox {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+/* Estilo dos botões */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-transition: background-color 0.3s;
+}
+
+/* Estilo para o botão ao passar o mouse (hover) */
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Estilo do título do evento no alerta */
+.alert .header {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Estilo do conteúdo do alerta */
+.alert .content {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+}
+
+/* Define o estilo para cada botão, com largura fixa e espaçamento adequado */
+.button {
+    -fx-min-width: 250px;
+}
+
+/* Estilo adicional para a janela, por exemplo, título */
+.stage {
+    -fx-title: "Histórico das Telecomunicações";
+}
